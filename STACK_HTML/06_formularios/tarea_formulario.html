@@ -1,0 +1,54 @@
+<!--Tarea formulario:Crear un formulario de registro 
+para un sitio web para reservar una hora al doctor. 
+Debee incluir: Nombre del paciente, fecha de cita, 
+fecha_nacimiento, Sintomas del paciente, Ciudad (lista despegable), 
+Casilla de verificacion-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="#" method="POST">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad">
+        </div>
+        <div>
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        <div>
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+        </div>
+        <div>
+            <label for="Sintomas">Sintomas:</label>
+            <textarea id="Sintomas" name="Sintomas" rows="4" cols="30"></textarea>
+        </div>
+        <div>
+            <label for="Ciudad">Ciudad:</label>
+            <select id="Ciudad" name="Ciudad">
+                <option value="Antofagasta"> Antofagasta</option>
+                <option value="Santiago"> Santiago</option>
+                <option value="Los Lagos"> Los Lagos</option>
+                <option value="Arica"> Arica </option>
+                <option value="Valparaiso"> Valparaiso </option>
+            </select>
+        </div>
+        <input type="checkbox" id="verificacion--" name="verificacion--" />
+        <label for="verificacion--">Acepto los términos y condiciones</label>
+        <br>
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+
+</html>
