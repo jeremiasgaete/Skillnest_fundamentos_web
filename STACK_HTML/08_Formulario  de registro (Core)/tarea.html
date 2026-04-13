@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de registro(Core)</title>
-    <h1>Crea una cuenta en Discord</h1>
+    <title>Formulario de registro (Core)</title>
 </head>
 
 <body>
+    <h1>Crea una cuenta en Discord</h1>
     <form action="/registro" method="post">
         <div>
             <label for="Nombre">Nombre:</label>
@@ -31,8 +31,8 @@
         </div>
         <br>
         <div>
-            <label for="contraseña">Confirmar contraseña:</label>
-            <input type="password" id="contraseña" name="Confirmar contraseña" placeholder="Confirma tu contraseña" />
+            <label for="Confirmar contraseña">Confirmar contraseña:</label>
+            <input type="password" id="contraseña" name="Confirmar contraseña" placeholder="Confirma tu contraseña"/>
         </div>
         <br>
         <div>
@@ -42,14 +42,16 @@
         <br>
         <div>
             <label for="genero">Genero:</label>
-            <input type="radio" id="fecha" name="genero" value="Masculino"> Masculino
-            <input type="radio" id="fecha" name="genero" value="Femenino"> Femenino
-            <input type="radio" id="fecha" name="genero" value="Prefiero no decirlo"> Prefiero no decirlo
+            <input type="radio" id="genero" name="genero" value="Masculino"> Masculino
+            <input type="radio" id="genero" name="genero" value="Femenino"> Femenino
+            <input type="radio" id="genero" name="genero" value="Prefiero no decirlo"> Prefiero no decirlo
         </div>
+        <br>
         <div>
-            <label for="Descripción sobre ti">Descripción sobre ti:</label> <br>
+            <label for="Descripciónsobreti">Descripción sobre ti:</label> <br>
             <textarea id="comentario" name="comentario" rows="4" cols="30"></textarea>
         </div>
+        <br>
         <div>
             <label for="intereses">Selecciona tus intereses:</label> <br>
             <select size="4">
@@ -59,9 +61,12 @@
                 <option value="Tecnología">Tecnología</option>
             </select>
         </div>
+        <br>
         <div>
             <input type="checkbox" id="acepto" name="acepto" />
-            <label for="acepto">Acepto los <a href="https://discord-com.translate.goog/terms?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc"> Términos y condiciones </a> de Discord.</label>
+            <label for="acepto">Acepto los 
+                    <a href="https://discord-com.translate.goog/terms?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc">
+                    Términos y condiciones </a> de Discord.</label>
         </div>
         <div>
             <input type="submit" value="Registrarse">
