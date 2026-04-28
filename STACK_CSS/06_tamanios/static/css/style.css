@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: solid 1px red;
+}
+
+.encabezado {
+    width: 100%;
+    /*Todo el ancho de la pagina*/
+    background-color: grey;
+    padding: 15px;
+}
+
+.titulo_header {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    outline: solid 1px grey;
+    margin: 0 auto;
+    width: 900px;
+    padding: 20px;
+}
+
+.row {
+    padding: 20px;
+}
+
+.aceptar {
+    width: 100px;
+    height: 50px;
+}
+
+.caja1 {
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    background-color: yellow;
+}
+
+.parrafo1 {
+    font-size: 30px;
+}
+
+.link1 {
+    font-size: 300%;
+    /*tamaño proporcional*/
+}
+
+.cursiva {
+    color: blue;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+/*
+📦Manejo del contenido con overflow (hidden, scroll, auto) 
+*/
+
+.caja {
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+    display: inline-block;
+}
+
+.example1 {
+    background-color: crimson;
+    height: 100px;
+    width: 300px;
+}
+
+.example2 {
+    background-color: gold;
+    height: 100px;
+    width: 300px;
+}
+
+.example3 {
+    background-color: darkslategray;
+    height: 100px;
+    width: 300px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.auto {
+    overflow: auto;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.banner {
+    height: 400px;
+    width: 100%;
+    background: rebeccapurple url("/STACK_CSS/06_tamanios/static/images/nrvpivnn4wi13hmfjqoo.jpg") no-repeat fixed center center;
+    background-size: 100%;
+}
+
+.cancelar {
+    border: 2px dotted rgb(255, 0, 0);
+    padding: 15px;
+}
+
+.articulo {
+    border: 2px solid rgb(206, 175, 175);
+    height: 50px;
+    width: 100px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.boton_redondeado {
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.caja_redondeada {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(102, 36, 209);
+    padding: 10px 17px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.cajitas {
+    width: 100px;
+    height: 40px;
+    outline: solid 1px aquamarine;
+}
+
+.box1 {
+    background-color: violet;
+    padding: 10px;
+}
+
+.box2 {
+    background-color: purple;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+}
+
+.box3 {
+    background-color: magenta;
+    margin: 10px;
+}
+
+.box4 {
+    background-color: darkmagenta;
+    margin: 0px 20px;
+    padding: 5px 0px;
+}
+
+.box5 {
+    float: left;
+    width: 30%;
+}
