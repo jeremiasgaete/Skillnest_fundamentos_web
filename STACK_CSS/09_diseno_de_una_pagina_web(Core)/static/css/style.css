@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -6,17 +6,21 @@
     text-align: center;
 }
 
-.header{
+.header {
     background-color: #1E3A5F;
     color: white;
     padding: 20px;
 }
 
-.menu{
+.titulo {
+    margin: 30px;
+}
+
+.menu {
     background-color: #2C5282;
 }
 
-.boton{
+.boton {
     display: inline-block;
     background-color: #2C5282;
     color: white;
@@ -26,33 +30,33 @@
     border-radius: 5px;
 }
 
-.boton:hover{
+.boton:hover {
     background-color: #335f96;
 }
 
-.contenedor_principal{
+.contenedor_principal {
     padding: 25px 50px;
 }
 
-.contenedor{
+.contenedor {
     box-shadow: 2px 1px 5px black;
     border-radius: 5px;
     padding: 30px;
     margin: 10px 90px 0px 90px;
 }
 
-.conte{
+.conte {
     padding: 30px 0px;
     background-color: #2C5282;
     border-radius: 5px;
     color: white;
 }
 
-.contenedor_tarjeta{
+.contenedor_tarjeta {
     padding: 20px;
 }
 
-.box{
+.box {
     display: inline-block;
     width: 300px;
     height: 100px;
